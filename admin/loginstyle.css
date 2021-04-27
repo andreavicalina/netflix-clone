@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img{
+    height: 45px;
+    width: 167px;
+}
+
+.header{
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.wrapper{
+    background-image: url(1.jpg);
+    height: 150vh;
+    background-image: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper::before{
+    content: '';
+    background: rgba(0, 0, 0, .5);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.login__body{
+    padding: 60px;
+    z-index: 10;
+    position: relative;
+    max-width: 450px;
+    height: 400px;
+    margin-left: 50%;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.login__body h2{
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    margin-top: 0;
+}
+
+.login__body input{
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    color: #333;
+    background: #fff;
+    border: 1px solid #333;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input__wrap{
+    margin-bottom: 25px;
+}
+
+.login__body button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background: #e50914;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #e50914;
+}
+
+.support{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.support input{
+    width: 15px;
+    height: 15px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+}
+
+.remember span{
+    margin-right: 10px;
+    height: 25px;
+}
+
+.navbar-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar li{
+  padding: 0 3px;
+
+}
+.nav-item a{
+  left: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+.nav-item a:hover{
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.jumbotron{
+  position: inherit;
+  margin-top: 0%;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.jumbotron h1{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+.navbar-brand img{
+  height: 80px;
+}
+
+.signupbutton{
+  text-align: center;
+}
+
+.row img{
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+
+.page-footer{
+  background-color: black;
+  color: white;
+}
